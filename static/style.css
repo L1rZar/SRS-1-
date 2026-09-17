@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+
+header h1 {
+    margin: 0 0 15px 0;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
+h2 {
+    margin-top: 0;
+}
+
+
+.main-page {
+    text-align: center;
+}
+
+
+.button,
+button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.button:hover,
+button:hover {
+    background-color: #555;
+}
+
+
+form {
+    margin-top: 25px;
+}
+
+
+form label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+
+input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+
+.radio-group label {
+    margin-top: 5px;
+}
+
+
+.error {
+    padding: 10px;
+    background-color: #f5d0d0;
+    color: #8b0000;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+.result {
+    text-align: center;
+}
+
+
+.score {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+
+footer {
+    text-align: center;
+    color: #777;
+    margin: 30px;
+}
