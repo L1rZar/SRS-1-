@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="main-page">
+
+    <h2>Как прошёл твой день?</h2>
+
+    <p>
+        RateMyDay помогает быстро оценить продуктивность дня
+        по нескольким простым параметрам.
+    </p>
+
+    <a class="button" href="{{ url_for('rate') }}">
+        Оценить свой день
+    </a>
+
+</section>
+
+{% endblock %}
